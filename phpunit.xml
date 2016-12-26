@@ -9,7 +9,7 @@
          stopOnFailure="false"
          syntaxCheck="false">
     <testsuites>
-        <testsuite name="Inverted Core Test Suite">
+        <testsuite name="Inverted Web Test Suite">
             <directory>./tests/Web</directory>
         </testsuite>
     </testsuites>

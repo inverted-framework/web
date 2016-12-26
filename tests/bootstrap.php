@@ -37,7 +37,7 @@ if (file_exists($vendor . "/autoload.php")) {
 */
 spl_autoload_register(function ($class) {
     $class = ltrim($class, '\\');
-    $prefix = 'Inverted\\Core\\Tests';
+    $prefix = 'Inverted\\Web\\Tests';
     if (strpos($class, $prefix) === 0) {
         $class = str_replace('\\', DIRECTORY_SEPARATOR, $class);
         $class = join(DIRECTORY_SEPARATOR, array('resources')) .
@@ -49,5 +49,5 @@ spl_autoload_register(function ($class) {
     }
 });
 
-require_once __DIR__ . "/../src/Core/Autoloader.php";
-\Inverted\Core\Autoloader::register();
+require_once __DIR__ . "/../src/Web/Autoloader.php";
+\Inverted\Web\Autoloader::register();
