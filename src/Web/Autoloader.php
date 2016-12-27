@@ -14,7 +14,7 @@
  * @copyright   2009-2015 PHPPresentation contributors
  * @license     http://www.gnu.org/licenses/lgpl.txt LGPL version 3
  */
-namespace Inverted\Core;
+namespace Inverted\Web;
 
 /**
  * Autoloader
